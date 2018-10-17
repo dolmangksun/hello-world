@@ -11,7 +11,7 @@ text-align:center;
     position: relative;
     -webkit-animation: mymove 1s;  /* Safari 4.0 - 8.0 */
     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-    animation: mymove 0.5s infinite;
+    animation: mymove 2s infinite;
     animation-fill-mode: forwards;
 }
 
@@ -20,6 +20,8 @@ text-align:center;
     0% {top: 0px;}
     100% {top: 200px; background-color: green;}
 }
+@-webkit-keyframes secondiv {
+    }
 
 @keyframes mymove {
     0% {top: 0px; left: 0px;}
@@ -33,6 +35,12 @@ text-align:center;
     80% {top: 80px; left: 320px; background-color: yellow;}
     90% {top: 40px; left: 360px; background-color: orange;}
     100% {top: 0px; left: 400px; background-color: red;}
+}
+
+@keyframes secondiv {
+    0% {top: 0px; left: 0px;}
+    50% {top:500px; left: 20px;}
+    100% top: 0px; left: 0px;}
 }
 </style>
 </head>
