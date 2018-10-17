@@ -9,10 +9,8 @@
                 height: 100px;
                 background: red;
                 position: relative;
-                -webkit-animation: mymove 1s infinite;  /* Safari 4.0 - 8.0 */
-                -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-                animation: mymove 1s infinite;
-                animation-fill-mode: forwards;
+                -webkit-animation: mymove 1s infinite alternate;
+                animation: mymove 1s infinite alternate;
             }
             @-webkit-keyframes mymove {
                 0% {top: 0px; left: 0px;}
@@ -44,7 +42,7 @@
                 height: 100px;
                 width: 100px;
                 background-color: red;
-                
+            }
         </style>
     </head>
     <body>
