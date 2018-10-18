@@ -39,10 +39,13 @@
                 100% {top: 0px; left: 400px; background-color: red;}
             }
             #div2 {
+                animation-timing-function: linear;
+                position: relative;
                 height: 100px;
                 width: 100px;
                 background-color: red;
-                animation: m2 1s infinite alternate;             
+                animation: m2 1s infinite alternate;
+                -webkit-animation: m2 1s infinite alternate;
             }
             @-webkit-keyframes m2 {
                 0% {top: 0px; left: 0px;}
